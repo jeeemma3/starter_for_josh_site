@@ -1,4 +1,4 @@
-<?php get_header();?>   
+  <?php get_header();?>   
               <section class= "container-fluid aboutbg text-center">
                 <div class="container">
         <h2>GAMES &amp; LEVEL DESIGNER</h2>
