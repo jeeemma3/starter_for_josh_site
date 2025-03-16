@@ -52,9 +52,11 @@
     }
 ?>">
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
-
 </head>
-<header class="container-fluid bg1">
+
+<body>
+    <?php get_header(); ?> 
+    <header class="container-fluid bg1">
   <div class="container"></div>
 
         <nav class="navbar navbar-expand-md navbar-dark">
