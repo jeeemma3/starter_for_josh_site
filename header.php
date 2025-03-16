@@ -55,7 +55,7 @@
 
 </head>
 <body>
-    <header class="container-fluid bg1">   <!-- div for the main image the stretches to the edge of the page- -->
+    <header class="container-fluid bg1">
         <div class="container">
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
@@ -85,12 +85,11 @@
         </div>
       </nav> 
    
-        <div class="tag"><!-- div that holds the content in the middle of the page-->
-                  <h1 > Games Design For the Future </h1><!--  the main tag line-->
+        <div class="tag">
+                  <h1 > Games Design For the Future </h1>
   </div>            
-</div><!-- container-->
+</div>
 <!—remove all our css styles and any Javascript code. WordPress automatically calls javascript /jquery elsewhere, calls to javascript are not needed in the header or the footer now- UNLESS you have calls to google or typkit fonts- they can stay-->
 
-<!-- very important that this code is added-->
 <?php wp_head(); ?> 
 </header>
